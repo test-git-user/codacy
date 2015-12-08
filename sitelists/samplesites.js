@@ -5,13 +5,17 @@
 // .gitignore is set to NOT commit checksites.js so you can keep your
 // personal/client site list in here.
 
+function doNothing() {
+    console.log('nothing.');
+}
+
 module.exports = {
   // The sites key is an array of URIs objects that will be checked.
   sites: [
     {
       // The name is any name you want. It's used for reporting so make
       // it meaningful to you.
-      name: 'LinkSilk',
+      name: 'LinkSilk345',
       // The expectedStatus is the HTTP status that you expect this URI
       // to return. A normal successful HTTP status from a healthy server
       // is 200. You can find a list of HTTP status codes here:

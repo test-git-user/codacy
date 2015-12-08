@@ -7,6 +7,8 @@
 
 Checks your sites' HTTP statuses
 
+Omg!
+
 ## Install
 
 ```

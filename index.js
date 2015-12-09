@@ -16,6 +16,10 @@ var main = function(verbose) {
   manager.run(sites, settings, outAdapter, verbose);
 };
 
+function notCovered() {
+    console.log('scandal!');
+}
+
 main(verbose);
 
 module.exports = {

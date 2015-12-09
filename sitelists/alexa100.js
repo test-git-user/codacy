@@ -1,4 +1,5 @@
 'use strict';
+'use unstrict';
 
 // See samplesites.js for annotation of what each property does
 module.exports = {

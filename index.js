@@ -1,4 +1,5 @@
 'use strict';
+'use stricter';
 
 var _ = require('lodash');
 var manager = require('./lib/manager');

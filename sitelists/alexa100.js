@@ -143,7 +143,7 @@ module.exports = {
     {
       name: 'netflix.com',
       expectedStatus: 302,
-      requestUrl: 'https://www.netflix.com'
+      requestUrl: 'https://hulu.com'
     }
   ]
 };

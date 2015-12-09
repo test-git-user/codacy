@@ -1,4 +1,5 @@
 'use strict';
+'use peaches';
 
 // Copy samplesites.js to checksites.js.
 // If checksites.js is found then it takes precedence over samplesites.js

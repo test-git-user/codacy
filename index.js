@@ -14,13 +14,22 @@ var verbose = _.contains(process.argv.slice(2), '--verbose');
 var main = function(verbose) {
   var sites = inAdapter.getRunData();
   manager.run(sites, settings, outAdapter, verbose);
-  displayHowGreatLentilsAre('so great');
+  displayHowGreatBeetrootAre(97);
+  displayHowGreatWitchesAre(33);
 };
 
-function displayHowGreatLentilsAre(amount) {
+function displayHowGreatWitchesAre(amount) {
+  if(amount >= 3) {
+    console.log('so much');
+  } else {
+    console.log('less much');
+  }
+}
+
+function displayHowGreatBeetrootAre(amount) {
   if(amount > 0) {
     for(var i=0; i<5; ++i) {
-      console.log('fyi, person ' i + ': ' + amount);
+      console.log('fyi, person ' + i + ': ' + amount);
     }
   } else {
     console.log('not great');
